@@ -1,10 +1,25 @@
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 :root {
     font-family: 'alice', sans-serif;
-    
+    line-height: 150%;
+    color: #573A37;
 }
 body {
     background-image: url(assets/Página\ de\ receita.png);
     background-size: cover;
+}
+main {
+    padding: 24px;
+}
+#abouty p+p {
+    margin-top: 24px;
+}
+section+section {
+    margin-top: 24px;
 }
 #page {
     box-sizing: border-box;
@@ -17,4 +32,27 @@ body {
 
 img{
     border-radius: 16px;
+}
+h1{
+   line-height: 140%;
+   font-size: 40px;
+}
+h2{
+    font-size: 24px;
+}
+h1,h2{
+    color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+footer {
+    text-align: center;
+    line-height: 150%;
+    font-size: 14px;
+    color: #F0E8C2;
+    margin-top: 16px;
+    padding-bottom: 48px;
+}
+footer img {
+    vertical-align: middle;
 }
